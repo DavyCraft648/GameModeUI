@@ -1,0 +1,28 @@
+name: GamemodeUI
+main: GamemodeUI\Main
+author: DavyCraft648
+version: 1.2.4
+api: [3.0.0, 4.0.0]
+description: Pilih Gamemode! GamemodeUI v1.2.4
+
+commands:
+ gmui:
+  description: Ubah Gamemode!
+  usage: "/gmui"
+  aliases: ["gamemodeui"]
+permissions:
+ gmui.cmd:
+  default: op
+  description: Izinkan untuk menggunakan GamemodeUI
+ gmui.survival:
+  default: true
+  description: Izinkan untuk jadi Survival
+ gmui.creative:
+  default: op
+  description: Izinkan untuk jadi Creative
+ gmui.adventure:
+  default: op
+  description: Izinkan untuk jadi Adventure
+ gmui.spectator:
+  default: op
+  description: Izinkan untuk jadi Spectator
