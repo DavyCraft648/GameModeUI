@@ -2,7 +2,6 @@
 build-by-default: true
 branches:
 - main
-- master
 projects:
   GameModeUI:
     path: ""
