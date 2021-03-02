@@ -1,38 +1,25 @@
-# GamemodeUI (Be Back)
-Ganti Gamemode dengan UI.
-> GamemodeUI v1.2.4
-
-## Cara Makai
-Ketik <code>/gamemodeui</code> atau <code>/gmui</code> lalu pilih gamemode yang diinginkan.
+# GamemodeUI
+Change your gamemode with a menu
 
 ### Command
-* <code>/gamemodeui</code>
-* <code>/gmui</code>
+ - `/gamemodeui`
+ - `/gmui`
 
-### Permission
-| GamemodeUI | Permission     |
-| :--------: | :------------: |
-| Buka Menu  | gmui.cmd       |
-| Creative   | gmui.creative  |
-| Survival   | gmui.survival  |
-| Adventure  | gmui.adventure |
-| Spectator  | gmui.spectator |
+### Permissions
+| GamemodeUI | Permission           |
+| :--------: | :------------------: |
+| Open Form  | gamemodeui.cmd       |
+| Creative   | gamemodeui.creative  |
+| Survival   | gamemodeui.survival  |
+| Adventure  | gamemodeui.adventure |
+| Spectator  | gamemodeui.spectator |
 
-## Dependcy
-Plugin ini sudah tidak membutuhkan *FormAPI*
+### Features
+ - Permissions per-gamemode
+ - Config
 
-## Fitur
- - [x] Ubah Gamemode dengan UI
- - [x] Permission setiap gamemode
- - [x] Config
-
-## Gamemode
- - [x] Survival
- - [x] Creative
- - [x] Adventure
- - [x] Spectator
-
-## Update
-* Permission terpisah untuk tiap gamemode
-* Gamemode Spectator
-* Hilangin Dependcy
+### Gamemode
+ - Survival
+ - Creative
+ - Adventure
+ - Spectator
